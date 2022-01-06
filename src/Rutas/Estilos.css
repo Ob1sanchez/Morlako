@@ -1,0 +1,11 @@
+.columna{
+    display: flex;
+  flex-direction: column;
+  margin: 0px;
+  height: 100vh;
+
+}
+.desplegable{
+    background-color: transparent important;
+    border: none important;
+  }

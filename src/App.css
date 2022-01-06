@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+.app{
+  height: 100vh;
+  text-decoration: none
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding-left:10px;
+  padding-right:10px;
+  color: #fff;
+  text-decoration: none
+
+}
+
+.logo{
+  width:175px;
+}
+
+.botones{
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight:600;
+  font-size:0.8rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.blue_button{
+  background-color: #0c0042;
+  padding:10px 12px 10px 12px;
+  color: #fff;
+  outline-width: 0px;
+  border-width: 0px;
+  border-radius: 6px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.grey_button{
+  background-color: transparent;
+}
+
+.right_header>h3:hover{
+  color: blue;
+  filter: brightness(1.2);
+}
+.left_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding-left:10px;
+  padding-right:10px;
+  color: #fff;
+}
+.botones:hover{
+  color:blue;
+}
+.botones_internos{
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight:600;
+  font-size:1rem;
+  cursor: pointer;
+  color: #000;
+}
+.botones_internos:hover{
+  color:blue;
+}
+.des{
+  text-decoration: none;
+}
